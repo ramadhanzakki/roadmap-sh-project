@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.changelog{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+.changelog-container{
+    width: 800px;
+    height: max-content;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.changelog-info p{
+    color: rgb(133, 130, 130);
+}
+.changelog-details ul{
+    list-style: none;
+}
+.cta-visit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-visit .visit{
+    width: max-content;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
