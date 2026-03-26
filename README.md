@@ -10,7 +10,7 @@ Below is the list of projects included in this repository. Click on the project 
 
 | Project Name | Short Description | Technologies | Directory |
 | :--- | :--- | :--- | :--- |
-| **Single Page CV** | Create a single-page HTML CV to showcase my career history | HTML | [View Directory]([./HTML-Project-Folder](https://github.com/ramadhanzakki/roadmap-sh-project/tree/main/basic-website)) |
+| **Single Page CV** | Create a single-page HTML CV to showcase my career history | HTML | [View Directory](https://github.com/ramadhanzakki/roadmap-sh-project/tree/main/single-page-cv) |
 | **Basic HTML Website** | Create simple HTML only website with multiple pages | HTML | [View Directory](https://github.com/ramadhanzakki/roadmap-sh-project/tree/main/basic-website) |
 | **Personal Portofolio** | Convert the simple HTML website into a personal portofolio | HTML, CSS | ... |
 
