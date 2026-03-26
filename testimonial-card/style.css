@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: radial-gradient(circle at top, #fff7e5 0%, #f7efdb 50%, #e9d8bc 100%);
+    color: #3d2f24;
+    line-height: 1.6;
+}
+
+section.testimonial {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.container {
+    width: min(96vw, 1000px);
+    padding: 25px;
+    border-radius: 30px;
+    background: rgba(255, 252, 244, 0.55);
+    box-shadow: 0 15px 40px rgba(66, 47, 17, 0.16);
+    backdrop-filter: blur(6px);
+}
+
+.title-testimonial {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title-testimonial h2 {
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 800;
+    color: #3c2a19;
+    letter-spacing: 1px;
+}
+
+.title-testimonial .child-title p {
+    margin-top: 8px;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    color: #5f4a39;
+    font-weight: 500;
+}
+
+.card-container ul {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-container li {
+    width: min(280px, 100%);
+}
+
+.card {
+    position: relative;
+    padding: 90px 20px 24px;
+    border-radius: 22px;
+    background: linear-gradient(145deg, #fff8ef, #fdf5e8);
+    border: 1px solid rgba(255, 255, 255, 0.82);
+    box-shadow: 0 20px 40px rgba(78, 56, 33, 0.14);
+    text-align: center;
+    transition: transform .35s ease, box-shadow .35s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 28px 50px rgba(79, 58, 35, 0.24);
+}
+
+.card img {
+    position: absolute;
+    top: -52px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 104px;
+    height: 104px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #fff2e2;
+    box-shadow: 0 12px 20px rgba(52, 36, 22, 0.25);
+    background-color: #fff;
+}
+
+.card h4 {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    color: #3b2817;
+    font-weight: 700;
+}
+
+.card > p:first-of-type {
+    margin-top: 4px;
+    color: #7a634f;
+    opacity: .9;
+    font-weight: 600;
+}
+
+.card > p:last-of-type {
+    margin-top: 18px;
+    font-size: 0.99rem;
+    color: #4a3828;
+    line-height: 1.58;
+    padding: 0 8px;
+}
+
+@media (max-width: 900px) {
+    .card-container ul {
+        gap: 16px;
+    }
+
+    .card {
+        padding: 78px 16px 22px;
+    }
+}
+
+@media (max-width: 680px) {
+    .card-container ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        padding: 18px;
+    }
+}
