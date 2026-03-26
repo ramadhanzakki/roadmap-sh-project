@@ -32,3 +32,17 @@ If you wish to explore or modify this code on your local machine:
 1. Clone this repository:
    ```bash
    git clone [https://github.com/ramadhanzakki/roadmap-sh-projects.git](https://github.com/ramadhanzakki/roadmap-sh-projects.git)
+2. Open the repository folder in your preferred code editor (e.g., VS Code).
+
+3. Navigate to the specific project folder you want to view (e.g., cd HTML-Project-Folder).
+
+4. Open the index.html file using a web browser or an extension like Live Server.
+
+---
+
+## 📞 Contact & Profile
+Thanks for stopping by! Let's connect:
+
+- GitHub: @ramadhanzakki
+
+- LinkedIn: Muhammad Zakki Fitra Ramadhan
