@@ -25,6 +25,25 @@
 }
 .changelog-details ul{
     list-style: none;
+    
+}
+.changelog-details ul li{
+    display: grid;
+    grid-template-columns: 1fr 10px 1fr;
+    gap: 10px;
+}
+.changelog-details-date{
+    text-align: right;
+}
+.changelog-details-round{
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50px;
+    margin: auto;
+}
+.changelog-details-text{
+    text-align: left;
 }
 .cta-visit{
     display: flex;
