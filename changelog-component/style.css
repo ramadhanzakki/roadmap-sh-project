@@ -13,6 +13,7 @@
 .changelog-container{
     width: 800px;
     height: max-content;
+    position: relative;
     border: 2px solid black;
     padding: 20px;
     text-align: center;
@@ -23,9 +24,17 @@
 .changelog-info p{
     color: rgb(133, 130, 130);
 }
+.changelog-row{
+    position: absolute;
+    height: 150px;
+    width: 3px;
+    background-color: black;
+    top: 85px;
+    right: 397px;
+}
 .changelog-details ul{
     list-style: none;
-    
+    padding: 0;
 }
 .changelog-details ul li{
     display: grid;
@@ -34,6 +43,7 @@
 }
 .changelog-details-date{
     text-align: right;
+    color: rgb(88, 88, 88);
 }
 .changelog-details-round{
     width: 8px;
@@ -56,4 +66,9 @@
     color: white;
     padding: 10px 20px;
     border-radius: 10px;
+    transition: all 0.5ms ease;
+}
+.visit:hover{
+    background-color: rgb(57, 57, 57);
+    transform: translateY(-3px);
 }
