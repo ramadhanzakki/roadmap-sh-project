@@ -14,6 +14,7 @@ Below is the list of projects included in this repository. Click on the project 
 | **Basic HTML Website** | Create simple HTML only website with multiple pages | HTML | [View Directory](https://github.com/ramadhanzakki/roadmap-sh-project/tree/main/basic-website) |
 | **Personal Portofolio** | Convert the simple HTML website into a personal portofolio | HTML, CSS | [View Directory](https://github.com/ramadhanzakki/roadmap-sh-project/tree/main/portofolio-web) |
 | **Testimonial Card** | Create a testimonial card for website using HTML and CSS | HTML, CSS | [View Directory](https://github.com/ramadhanzakki/roadmap-sh-project/tree/main/testimonial-card) |
+| **Changelog Component** | Create simple changelog component for website | HTML, CSS | [View Directory](https://github.com/ramadhanzakki/roadmap-sh-project/tree/main/changelog-component) |
 
 ---
 
@@ -31,7 +32,7 @@ If you wish to explore or modify this code on your local machine:
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/ramadhanzakki/roadmap-sh-projects.git](https://github.com/ramadhanzakki/roadmap-sh-projects.git)
+   git clone https://github.com/ramadhanzakki/roadmap-sh-projects.git
 2. Open the repository folder in your preferred code editor (e.g., VS Code).
 
 3. Navigate to the specific project folder you want to view (e.g., cd HTML-Project-Folder).
