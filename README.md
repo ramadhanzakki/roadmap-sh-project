@@ -16,6 +16,7 @@ Below is the list of projects included in this repository. Click on the project 
 | **Testimonial Card** | [https://roadmap.sh/projects/testimonial-cards](https://roadmap.sh/projects/testimonial-cards) | HTML, CSS | [View Directory](https://github.com/ramadhanzakki/roadmap-sh-project/tree/main/testimonial-card) |
 | **Changelog Component** | [https://roadmap.sh/projects/changelog-component](https://roadmap.sh/projects/changelog-component) | HTML, CSS | [View Directory](https://github.com/ramadhanzakki/roadmap-sh-project/tree/main/changelog-component) |
 | **Datepicker UI** | [https://roadmap.sh/projects/datepicker-ui](https://roadmap.sh/projects/datepicker-ui) | HTML, CSS | [View Directory](https://github.com/ramadhanzakki/roadmap-sh-project/tree/main/datepicker-ui) |
+| **Image Grid Layout** | [https://roadmap.sh/projects/image-grid](https://roadmap.sh/projects/image-grid) | HTML, CSS | [View Directory](https://github.com/ramadhanzakki/roadmap-sh-project/tree/main/image-grid-layout) |
 
 ---
 
